@@ -1,7 +1,7 @@
 <template>
   <div id="app">
     <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="prop drilled piece of data"/>
+    <HelloWorld msg="provided/injected piece of data"/>
   </div>
 </template>
 

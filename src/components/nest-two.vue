@@ -9,6 +9,7 @@ export default {
   name: 'NestTwo',
   props: {
     msg: String
-  }
+  },
+  inject: ['msg']
 }
 </script>

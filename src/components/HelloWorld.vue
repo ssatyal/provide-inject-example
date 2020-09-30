@@ -1,6 +1,6 @@
 <template>
   <div class="hello">
-    <nest-one :msg="msg"/>
+    <nest-one/>
   </div>
 </template>
 
@@ -13,7 +13,10 @@ export default {
   },
   props: {
     msg: String
-  }
+  },
+  provide() {
+    return {msg: this.msg}
+  },
 }
 </script>
 

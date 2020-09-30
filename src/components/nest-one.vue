@@ -1,5 +1,5 @@
 <template>
-  <nest-two :msg="msg"/>
+  <nest-two/>
 </template>
 
 <script>
@@ -9,8 +9,5 @@ export default {
   components: {
     NestTwo,
   },
-  props: {
-    msg: String
-  }
 }
 </script>
