@@ -1,6 +1,7 @@
 <template>
   <div class="hello">
     <nest-one/>
+    <button @click="changeMessage">change message</button>
   </div>
 </template>
 
@@ -17,6 +18,11 @@ export default {
   provide() {
     return {msg: this.msg}
   },
+  methods: {
+    changeMessage() {
+      this.msg = `${this.msg} clicked`
+    }
+  }
 }
 </script>
 

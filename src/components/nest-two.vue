@@ -10,6 +10,6 @@ export default {
   props: {
     msg: String
   },
-  inject: ['msg']
+  inject: ['msg'],
 }
 </script>
